@@ -15,9 +15,23 @@
  在顶点着色器阶段至少应输出位置信息-即内建变量：gl_Position，其它两个可选的变量为：gl_FrontFacing 和 gl_PointSize。
  */
 
+//uniform mat4 projection;
+//uniform mat4 modelView;
+//
+//attribute vec4 vPosition;
+//
+//void main()
+//{
+////    gl_Position = vPosition;
+//    gl_Position = projection * modelView * vPosition;  //左乘，在这里，顶点先进行模型视图变换，然后再进行投影变换
+//}
+
+
+uniform mat4 projection;
+uniform mat4 modelView;
 attribute vec4 vPosition;
 
-void main()
+void main(void)
 {
-    gl_Position = vPosition;
+    gl_Position = projection * modelView * vPosition;
 }

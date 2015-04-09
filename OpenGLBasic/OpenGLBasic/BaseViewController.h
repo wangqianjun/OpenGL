@@ -6,9 +6,10 @@
 //  Copyright (c) 2015年 Arthur. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <UIKit/UIKit.h>]
+#import "ASEBackViewController.h"
 
-@interface ViewController : UIViewController
+@interface BaseViewController : ASEBackViewController
 
 
 @end

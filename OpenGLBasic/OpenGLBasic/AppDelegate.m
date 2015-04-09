@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "RootViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,7 +20,7 @@
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    ViewController *vc = [[ViewController alloc]init];
+    RootViewController *vc = [[RootViewController alloc]init];
     
     self.window.rootViewController = vc;
     

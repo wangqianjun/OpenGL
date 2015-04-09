@@ -18,6 +18,8 @@
 		E701E27B1AD661ED00787EB0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E701E27A1AD661ED00787EB0 /* RootViewController.m */; };
 		E701E27E1AD6649800787EB0 /* ASEBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E701E27D1AD6649800787EB0 /* ASEBackViewController.m */; };
 		E701E2821AD6689D00787EB0 /* TransformAndColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E701E2811AD6689D00787EB0 /* TransformAndColorViewController.m */; };
+		E701E2901AD6A02B00787EB0 /* ASEOpenGLESView.m in Sources */ = {isa = PBXBuildFile; fileRef = E701E28F1AD6A02B00787EB0 /* ASEOpenGLESView.m */; };
+		E701E2931AD6A07A00787EB0 /* ClubView.m in Sources */ = {isa = PBXBuildFile; fileRef = E701E2921AD6A07A00787EB0 /* ClubView.m */; };
 		E7CE66121AD3A83F003CE27C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CE66111AD3A83F003CE27C /* main.m */; };
 		E7CE66151AD3A83F003CE27C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CE66141AD3A83F003CE27C /* AppDelegate.m */; };
 		E7CE66181AD3A83F003CE27C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CE66171AD3A83F003CE27C /* BaseViewController.m */; };
@@ -57,6 +59,10 @@
 		E701E27D1AD6649800787EB0 /* ASEBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASEBackViewController.m; sourceTree = "<group>"; };
 		E701E2801AD6689D00787EB0 /* TransformAndColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformAndColorViewController.h; sourceTree = "<group>"; };
 		E701E2811AD6689D00787EB0 /* TransformAndColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformAndColorViewController.m; sourceTree = "<group>"; };
+		E701E28E1AD6A02B00787EB0 /* ASEOpenGLESView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASEOpenGLESView.h; path = Utils/ASEOpenGLESView.h; sourceTree = "<group>"; };
+		E701E28F1AD6A02B00787EB0 /* ASEOpenGLESView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASEOpenGLESView.m; path = Utils/ASEOpenGLESView.m; sourceTree = "<group>"; };
+		E701E2911AD6A07A00787EB0 /* ClubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubView.h; sourceTree = "<group>"; };
+		E701E2921AD6A07A00787EB0 /* ClubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubView.m; sourceTree = "<group>"; };
 		E7CE660C1AD3A83F003CE27C /* OpenGLBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CE66101AD3A83F003CE27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7CE66111AD3A83F003CE27C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,6 +114,10 @@
 			children = (
 				E701E2631AD4C36000787EB0 /* ASEOpenGLView.h */,
 				E701E2641AD4C36000787EB0 /* ASEOpenGLView.m */,
+				E701E28E1AD6A02B00787EB0 /* ASEOpenGLESView.h */,
+				E701E28F1AD6A02B00787EB0 /* ASEOpenGLESView.m */,
+				E701E2911AD6A07A00787EB0 /* ClubView.h */,
+				E701E2921AD6A07A00787EB0 /* ClubView.m */,
 			);
 			name = OpenglViews;
 			sourceTree = "<group>";
@@ -312,6 +322,8 @@
 				E701E2781AD60F6500787EB0 /* GLESUtils.m in Sources */,
 				E7CE66151AD3A83F003CE27C /* AppDelegate.m in Sources */,
 				E701E27E1AD6649800787EB0 /* ASEBackViewController.m in Sources */,
+				E701E2931AD6A07A00787EB0 /* ClubView.m in Sources */,
+				E701E2901AD6A02B00787EB0 /* ASEOpenGLESView.m in Sources */,
 				E701E2771AD60F6500787EB0 /* aseVector.c in Sources */,
 				E701E2651AD4C36000787EB0 /* ASEOpenGLView.m in Sources */,
 				E7CE66121AD3A83F003CE27C /* main.m in Sources */,

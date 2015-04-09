@@ -8,14 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <OpenGLES/ES2/gl.h>
+#import "ASEOpenGLESView.h"
 #import "aseMatrix.h"
 
-@interface ASEOpenGLView : UIView {
-    CAEAGLLayer *_eaglLayer;
-    EAGLContext *_context;
-    GLuint _colorRenderBuffer;
-    GLuint _frameBuffer;
-    
+@interface ASEOpenGLView : ASEOpenGLESView {
+
     GLuint _programHandle;
     GLuint _positionSlot;
     GLuint _modelViewSlot;
@@ -42,8 +39,7 @@
 @property (nonatomic, assign) float rotateX;
 
 - (void)resetTransform;
-- (void)render;
-- (void)cleanup;
+
 - (void)toggleDisplayLink;
 
 
